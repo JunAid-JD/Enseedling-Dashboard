@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Enseedling-Dashboard/static/css/main.bc679f45.css",
+    "main.js": "/Enseedling-Dashboard/static/js/main.a4efeddc.js",
+    "index.html": "/Enseedling-Dashboard/index.html",
+    "main.bc679f45.css.map": "/Enseedling-Dashboard/static/css/main.bc679f45.css.map",
+    "main.a4efeddc.js.map": "/Enseedling-Dashboard/static/js/main.a4efeddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc679f45.css",
+    "static/js/main.a4efeddc.js"
+  ]
+}
