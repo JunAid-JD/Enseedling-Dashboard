@@ -1,0 +1,152 @@
+
+.kyc{
+    flex: 1;
+        padding: 1rem;
+}
+
+
+
+.kyc h3{
+font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.kyc p{
+font-weight: 400;
+    font-size: 16px;
+    
+    color: #7E7E7E;
+
+    margin-top: 5px;
+}
+
+.companyheader {
+
+
+}
+
+.companynumber{
+margin: 2rem 0;
+}
+
+.companynumber h5{
+font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.companynumber input{
+width: 526px;
+    height: 60px;
+   text-indent: 1rem;
+
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 12px;
+
+    display: block;
+    margin: 1rem 0;
+}
+
+.companynumber button{
+width: 210px;
+    height: 56px;
+
+    background: #422A90;
+    border-radius: 15px;
+    border: transparent;
+
+color: #FFFFFF;
+
+font-weight: 600;
+    font-size: 16px;
+}
+
+
+.companydocuments{
+padding-top: .5rem;
+padding-bottom: 1rem;
+}
+
+.companydocuments  .documentsbox{
+    padding: 0.7rem 0 1rem;
+}
+
+.documentsbox .document{
+width: 973px;
+    height: 93px;
+  margin: 1rem 0;
+
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 15px;
+
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.document  .documentdetail{
+    display: flex;
+    align-items: center;
+   gap: 1rem;
+}
+.documentdetail .documentcontent h5{
+font-weight: 500;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.document .documentoperation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.documentoperationcustom{
+    gap: 3.8rem !important; 
+}
+.documentoperationstatus{
+
+}
+
+.documentoperationstatus h3{
+font-weight: 600;
+    font-size: 16px;
+    color: #422A90;
+    margin: 5px 0;
+}
+.documentoperationstatus p{
+font-weight: 400;
+    font-size: 12px;
+    color: #24FF00;
+
+}
+
+
+.upload{
+    height: 30px;
+    width: 105px;
+background: #422A90;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+gap: .4rem;
+align-items: center;
+
+    font-weight: 500;
+        font-size: 10px;
+        color: #FFFFFF;
+
+        cursor: pointer;
+}
+.upload p{
+    font-weight: 500;
+        font-size: 10px;
+        color: #FFFFFF;
+        margin: auto 0;
+}

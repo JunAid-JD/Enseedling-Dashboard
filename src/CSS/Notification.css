@@ -1,0 +1,93 @@
+.notification{
+position: absolute;
+width: 1030px;
+    top: 61px;
+        height: 720px;
+        left: 319px;
+        top: 61px;
+    background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(9px);
+
+        z-index: 999;
+}
+
+.notificationbox{
+    position: absolute;
+        width: 313px;
+        height: 520px;
+            left: 643px;
+                top: -6px;
+    
+        background: #FFFFFF;
+        box-shadow: -6px -6px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+
+
+color: black;
+        padding: 1rem;
+}
+.notificationhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(66, 42, 144, 0.3);
+}
+.notificationhead h1{
+    font-weight: 700;
+        font-size: 16px;
+}
+
+.notificationstatus{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.notificationstatus  div{
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+.notificationstatus div p{
+    font-weight: 400;
+        font-size: 8px;
+        color: #7E7E7E;
+}
+
+.notificationstatus div .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+        height: 9px;
+       
+        color: #FFFFFF;
+    font-weight: 400;
+        font-size: 6px;
+        background-color: #7E7E7E;
+        border-radius: 2px;
+}
+
+.notificationstatus div .darkblue{
+        background: #422A90;
+}
+
+.notificationuser{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: .7rem 0;
+}
+
+
+.notificationuser h1{
+    font-weight: 700;
+        font-size: 12px;
+}
+.notificationuser p{
+    font-weight: 400;
+        font-size: 8px;
+        color: #7E7E7E;
+        display: flex;
+        align-items: center;
+}

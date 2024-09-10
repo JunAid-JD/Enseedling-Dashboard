@@ -1,0 +1,361 @@
+.jobs{
+flex: 1;
+    padding: 1rem;
+}
+.jobs h3{
+    font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 5px;
+}
+.jobs p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7E7E7E;
+    margin-top: 5px;
+}
+
+.jobbtn{
+width: 157px;
+    height: 40px;
+
+    background: #422A90;
+    border-radius: 15px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 .5rem;
+    color: #FFFFFF;
+        cursor: pointer;
+}
+.jobbtn p{
+    color: #FFFFFF;
+    margin: 0 ;
+}
+
+
+.jobs .jobheader{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.searchsection{
+
+}
+.searchsection .searchinput{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.searchinput span{
+    width: 451px;
+        height: 40px;
+    
+        background: #FFFFFF;
+        border: 1px solid rgba(126, 126, 126, 0.3);
+        border-radius: 10px;
+        color: #7E7E7E;
+        display: flex;
+            align-items: center;
+            padding-left: 1rem;
+}
+.searchinput span input{
+   color: #7E7E7E;
+   border: none;
+   outline: none;
+   text-indent: .5rem;
+   width: 100%;
+} 
+
+.searchsection .searchbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 1.5rem ;
+    padding: 2rem 0;
+}
+
+.searchbody .jobsearchbox{
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+        height: auto;
+        gap: 10px;
+}
+.jobsearchbox img{
+    width: 310px;
+    border-radius: 15px;
+}
+
+.searchbody .searchboxbtns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.searchboxbtns .boxbtn{
+    padding: 2px 10px;
+    font-weight: 500;
+        font-size: 14px;
+        width: auto;
+        height: 24px;
+    
+        /* Blue light/50 */
+    
+        background: #F0F9FF;
+        border-radius: 16px;
+
+        color: #026AA2;
+        cursor: pointer;
+}
+.searchboxbtns .boxbtn2{
+background: #FDF2FA;
+color: #C11574;
+}
+.searchboxbtns .boxbtn3 {
+    background: #FFF1F3;
+    color: #C01048;
+}
+
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+.pagination .paginationgbtn{
+width: 56px;
+    height: 56px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(66, 42, 144, 0.05);
+
+    font-weight: 400;
+        font-size: 24px;
+        border-radius: 50%;
+        cursor: pointer;
+}
+.pagination .paginationgbtnleft{
+border: 2px solid #422A90;
+background-color: transparent;
+color: #422A90;
+}
+.pagination .paginationgbtnright {
+background: #422A90;
+border: 1px solid #422A90;
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------    Jop post    ----------------- */
+
+
+.jobpostform{
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 992px;
+        /* height: 1437px; */
+        
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px;
+}
+.jobpostform form label{
+    font-weight: 500;
+        font-size: 16px;
+        display: block;
+    margin: 0.8rem 0;
+}
+.jobpostform form input{
+    height: 60px;
+      width: 100%;
+
+    font-weight: 400;
+        font-size: 14px;
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+
+        text-indent: 1rem;
+        color: #7E7E7E;
+        outline: none;
+}
+
+.jobtypes{
+    display: flex;
+   align-items: center;
+    /* justify-content: space-between;  */
+    gap: 1rem;
+}
+.jobtypes .jobtype{
+display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 1rem; */
+
+
+    font-weight: 400;
+        font-size: 14px;
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+    
+        text-indent: 1rem;
+        color: #7E7E7E;
+        width: 310px;
+
+        padding-right: .8rem;
+}
+.jobtypes .jobtype input{
+   border: none;
+   background-color: transparent;
+        outline: none;
+        
+}
+
+
+.jobpostform form .pricesection{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.pricesection .pricetype{
+    font-weight: 400;
+        font-size: 14px;
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+    
+        text-indent: 1rem;
+        color: #7E7E7E;
+    width: 466px;
+    
+        padding-right: .8rem;
+
+
+        display: flex;
+            align-items: center;
+}
+.pricesection .pricetype input{
+border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.pricesection .pricetype span{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.pricesection .pricetype span p{
+  margin: 0;
+font-weight: 700;
+    font-size: 14px;
+}
+
+.descriptionbox{
+    margin: 1rem 0;
+    width: 960px;
+        height: 341px;
+        left: 24px;
+        top: 964px;
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+}
+.descriptionbox .descriptionboxheader{
+    height: 43px;
+      
+font-weight: 700;
+    font-size: 18px;
+    color: #7E7E7E;
+
+        background: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        padding-left: 1rem;
+}
+.descriptionbox .descriptionboxheader .descriptionboxicon{
+    display: flex;
+    gap: 0 1.5rem ;
+     cursor: pointer;
+}
+.descriptionbox .descriptionboxbody{
+    padding: 1rem;
+}
+
+.descriptionbox .descriptionboxbody p{
+line-height: 26px;
+} 
+
+.jobpostbtns{
+    justify-content: end;
+    padding-top: 3rem;
+}
+
+
+
+/* --------------------------    Jop detail    ----------------- */
+.salary_jobtype{
+ display: flex;
+ align-items: center;
+ gap: 0 3rem ;
+}
+.salary_jobtype .typeicon{
+    font-weight: 700;
+        font-size: 18px;
+
+        display: flex;
+        align-items: center;
+    gap: 0 1rem ;
+}
+
+.typebtn{
+    padding: 9px 26px;
+     
+    
+        /* width: 173px; */
+        height: 39px;
+    
+        background: #422A90;
+        border-radius: 15px;
+
+        color: #FFFFFF;
+
+      
+}
+.typebtn h5{
+font-weight: 400;
+    font-size: 16px;
+}
+
+.jobdetaildescription {
+ margin-top: 3rem;
+}
+
+.jobdetaildescription p{
+    line-height: 26px;
+}

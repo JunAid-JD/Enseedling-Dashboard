@@ -1,0 +1,326 @@
+.management{
+    flex: 1;
+    padding: 1rem;
+}
+.management h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.management p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7E7E7E;
+    margin-top: 5px;
+}
+.management nav{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+    /* padding: .5rem 0; */
+
+    border-bottom: 2px solid rgba(126, 126, 126, 0.3);
+}
+.management nav a{
+    font-weight: 500;
+        font-size: 16px;
+    
+        color: #7E7E7E;
+}
+
+
+
+
+
+
+
+/* -------------------------- Management Resume            ------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------- Management Assessment           ------------------ */
+.managementassessmentdownload{
+ display: flex;
+ align-items: center;
+ gap: 0 2rem;
+}
+.managementassessmentdownload .download{
+    display: flex;
+align-items: center;
+    gap: 0 .5rem;
+    color: #7E7E7E;
+}
+
+.managementassessmentdownload .download p{
+    margin: 0;
+    font-weight: 400;
+        font-size: 16px;
+}
+
+
+
+
+
+
+
+/* -------------------------- Management Shortlist           ------------------ */
+.shortlisthead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.candidatesboxes{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+
+    margin: 2rem 0;
+}
+
+.candidatebox{
+    width: 229px;
+        /* height: 396px; */
+    
+        background: #FFFFFF;
+        box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+
+        padding: .5rem;
+}
+
+.candidateboximg img{
+    width: 210px;
+        height: 206px;
+}
+.candidateboxcontent{
+
+} 
+.candidateboxcontent h5{
+    font-weight: 500;
+        font-size: 10px;
+        color: #422A90;
+        margin-bottom: 5px;
+}
+
+.candidateboxcontent .name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.candidateboxcontent .name h1{
+    font-weight: 700;
+        font-size: 14px;
+        margin-top: 5px;
+}
+
+.candidateboxcontent p{
+    font-weight: 400;
+        font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------- Management profile           ------------------ */
+.candidateprofilebox{
+    width: 998px;
+        /* height: 275px; */
+        
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px;
+        padding: .7rem;
+
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+
+        margin: 2rem 0;
+}
+.candidateprofileimg{
+
+}
+
+.candidateprofiledetail{
+width: 100%;
+}
+.candidateprofiledetail .candidateprofilehead{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.candidateprofiledetail .candidateprofilehead .name{
+
+}
+.candidateprofiledetail .candidateprofilehead .name h1{
+font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.candidateprofiledetail .candidateprofilehead .name p {
+font-weight: 400;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.candidateprofiledetail .candidateprofilehead .social{
+    display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-right: 2rem;
+}
+
+.candidateprofiledetail .candidateprofileaddress{
+    display: flex;
+        align-items: center;
+        gap: 1rem;
+}
+.candidateprofiledetail .candidateprofileaddress span{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+}
+.candidateprofiledetail .candidateprofileaddress span p{
+ margin: 0;
+font-weight: 400;
+    font-size: 16px;
+}
+
+.candidateprofiledetail .candidateprofileexperience{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.candidateprofiledetail .candidateprofileexperience div{
+
+}
+.candidateprofiledetail .candidateprofileexperience div h5{
+font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.candidateprofiledetail .candidateprofileexperience div p {
+    margin-top: 5px;
+    font-weight: 400;
+        font-size: 12px;
+}
+
+
+
+
+.profileform{
+    width: 998px;
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px;
+
+        padding: 1rem;
+}
+.profileform label {
+font-weight: 500;
+    font-size: 16px;
+    display: block;
+   
+}
+.profileform input{
+    background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+        width: 100%;
+        height: 60px;
+        font-weight: 400;
+            font-size: 14px;
+            color: #7E7E7E;
+            outline: none;
+
+            text-indent: 1rem;
+            margin: .6rem 0;
+}
+
+
+.profileform .date{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profileform .date div input{
+  width: 310px;
+}
+
+.eventalert{
+    font-weight: 500;
+        font-size: 12px;
+}
+
+.profileform .location,.addguest{
+background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 12px;
+    width: 100%;
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7E7E7E;
+    outline: none;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin: 1rem 0;
+    padding :0 .5rem ;
+
+}
+.profileform .location input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.profileform .addguest input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.profileform .uploadfile{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+        gap: 8px;
+        height: 145px;
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+}
+.profileform .uploadfile button{
+background: #422A90;
+    border-radius: 4px;
+    border:1px solid #422A90;
+ color: white;
+}

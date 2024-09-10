@@ -1,0 +1,476 @@
+.interns{
+ flex: 1;
+ padding: 1rem;
+}
+
+.interns h3{
+font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.interns p {
+font-weight: 400;
+    font-size: 16px;
+    
+    color: #7E7E7E;
+    margin-top: 5px;
+}
+
+.interns .internhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.interns nav {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+    /* padding: .5rem 0; */
+
+    border-bottom: 2px solid rgba(126, 126, 126, 0.3);
+}
+
+.interns nav a {
+    font-weight: 500;
+    font-size: 16px;
+
+    color: #7E7E7E;
+}
+
+
+
+
+
+
+
+/* ---------------   INtern Attendence  ----------------------- */
+.internsattendence{
+
+}
+
+ .internsattendencebtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .internsattendencebtns .attendencecalenderbtns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.internsattendencebtns .attendencecalenderbtns  .calenderbtn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+
+
+  color: #7E7E7E;
+
+width: 239px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.3);
+    border-radius: 10px;
+}
+ .internsattendencebtns .attendencecalenderbtns .calenderbtn div{
+    display: flex;
+        align-items: center;
+        gap: 1rem;
+}
+ .internsattendencebtns .attendencecalenderbtns .calenderbtn div p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+.internattendencebox{
+
+    margin: 2rem 0;
+    width: 998px;
+        /* height: 452px; */
+
+        
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px;
+}
+
+.internattendencebox .internattendenceboxhead{
+  padding: .5rem 2rem;
+  display: flex;
+align-items: center;
+gap: 10rem;
+
+margin: 5px 0;
+
+border-bottom: 2px solid rgba(66, 42, 144, 0.3);
+}
+
+
+.internattendencebox .internattendenceboxbody{
+  padding: 0rem 2rem ;
+}
+
+.internattendencebox .internattendenceboxbody div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 1rem 0;
+}
+
+.internattendencebox .internattendenceboxbody div .attendencebtn{
+    width: 212px;
+        height: 56px;
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .7rem;
+
+        color: #7E7E7E;
+}
+
+.internattendencebox .internattendenceboxbody div .attendencebtn p{
+ margin: 0;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------   Interns Slip     -------------------- */
+.internslipform{
+    width: 998px;
+
+background: rgba(66, 42, 144, 0.05);
+border: 1px solid rgba(66, 42, 144, 0.3);
+border-radius: 10px;
+
+padding: 1rem;
+}
+
+.internslipform h3{
+    margin: 5px 0;
+}
+
+.internslipform h5 {
+   margin: 5px 0;
+font-weight: 500;
+    font-size: 16px;
+}
+.internslipform h5 span{
+    padding: 0 1rem ;
+    font-weight: 400;
+        font-size: 12px;
+        color: #7E7E7E;
+}
+
+.internslipform label{
+    font-weight: 500;
+        font-size: 16px;
+        display: block;
+        margin: .7rem 0;
+}
+.internslipform input {
+height: 60px;
+   width: 100%;
+
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 12px;
+
+    font-weight: 400;
+        font-size: 14px;
+        color: #7E7E7E;
+        text-indent: 1rem;
+}
+.internslipform .billed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+ .internslipform .billed input{
+width: 310px;
+}
+
+.internslipform .period{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.period .calender{
+    height: 60px;
+    width: 460px;
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+    
+        font-weight: 400;
+        font-size: 14px;
+        color: #7E7E7E;
+
+
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 1rem;
+}
+.period .calender input{
+    background-color: transparent;
+    border: none;
+    text-indent: 0;
+}
+
+
+.internslipform .stipend{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.internslipform .stipend input{
+    width: 370px;
+}
+
+
+.internslipform .stipend .stipendprice{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.internslipform .stipend .stipendprice input{
+    width: 160px;
+}
+
+.stipendtotal{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.stipendtotal span{
+    font-weight: 500;
+        font-size: 16px;
+
+        display: flex;
+        align-items: center;
+        
+        margin: .8rem 0;
+}
+
+.internslipform textarea{
+    width: 960px;
+        height: 139px;
+       
+    padding: 1rem;
+
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+
+
+        font-weight: 400;
+            font-size: 14px;
+          
+        
+            color: #7E7E7E;
+}
+
+
+
+
+
+/* -------------------     internslip detail          ----------------------- */
+
+.internslipdetailsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .internslipdetailsection .stipendslip{
+    width: 815px;
+ 
+    padding: 1rem;
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px;
+}
+
+.stipendslip img{
+    margin-bottom: 1rem;
+}
+
+.stipendslip h3 {
+    margin: 5px 0;
+}
+
+.stipendslip h5 {
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.stipendslip h5 span {
+    padding: 0 1rem;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7E7E7E;
+}
+
+.stipendslip .date{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    padding: .5rem 0;
+}
+
+.stipendslip .date h5{
+    font-weight: 500;
+        font-size: 16px;
+}
+.stipendslip .date p {
+    font-weight: 400;
+        font-size: 14px;
+        margin: 0;
+}
+
+.stipendslip .date span {
+    font-weight: 400;
+        font-size: 12px;
+    
+        color: #FF0000;
+}
+
+.stipendslip .fromto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.stipendslip .totalbox{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+}
+
+.stipendslip .totalboxdetail {
+    width: 316px;
+    
+    padding: 1rem 2rem; 
+
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px
+}
+
+.stipendslip .totalboxdetail span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/* ----------  offer letter ---------- */
+.red{
+color: #FF0000;
+}
+
+.green{
+color: #1C9649;
+}
+
+.blue{
+color: #422A90;
+}
+
+
+
+
+
+.internofferletterbox{
+    width: 998px;
+        
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px;
+
+        padding: 1rem;
+        margin: 2rem 0 1rem;
+}
+
+.internofferletterbox .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.internofferletterbox label{
+    font-weight: 500;
+        font-size: 16px;
+        display: block;
+        margin: .7rem 0;
+}
+
+.internofferletterbox input{
+height: 60px;
+    width: 100%;
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 12px;
+
+    text-indent: 1rem;
+}
+
+
+
+.internofferletterbox h1{
+    font-weight: 500;
+        font-size: 16px;
+}
+
+
+.internofferletterbox .date {
+    margin: 2rem 0;
+}
+
+.internofferletterbox .ending{
+    margin-top: 4rem;
+}

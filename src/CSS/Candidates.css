@@ -1,0 +1,67 @@
+.candidates{
+  flex: 1;
+  padding: 1rem;
+}
+
+.candidates h3{
+    font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 5px;
+}
+
+.candidates p{
+    font-weight: 400;
+        font-size: 16px;
+        color: #7E7E7E;
+        margin-top: 5px;
+}
+
+.candidatebtnpara{
+    margin:  0 !important;
+    font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF !important;
+}
+
+
+table{
+width: 998px;
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+ table thead td{
+    border-bottom: 2px solid rgba(126, 126, 126, 0.3) !important;
+    padding: 1rem;
+}
+table td{
+    font-weight: 400;
+        font-size: 16px;
+        color: #7E7E7E;
+}
+.tableheadfirst{
+    display: flex;
+    align-items: center;
+    gap: .5rem ;
+}
+.tableheadfirst p{
+    margin: 0;
+}
+
+.tablebodyfirst{
+    display: flex;
+        align-items: center;
+        gap: .5rem;
+}
+.tablebodyfirst p{
+ margin: 0;
+ font-weight: 500 !important;
+}
+
+ table tbody td {
+  padding: 1rem;
+ }
+ .tbodyfirstcustom{
+    padding-top: 2.5rem ;
+ }

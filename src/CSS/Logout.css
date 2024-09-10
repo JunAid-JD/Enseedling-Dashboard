@@ -1,0 +1,43 @@
+.logoutpopup{
+    position: absolute;
+        width: 1025px;
+        height: 963px;
+        left: 320px;
+        top: 61px;
+    
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(9px);
+
+        z-index: 998;
+}
+
+.logoutbtns{
+    display: flex;
+    gap: 1rem;
+}
+.logoutbtns .logoutbtn{
+    width: 170px;
+        height: 44px;
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        /* Shadow/xs */
+    
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+        font-weight: 600;
+            font-size: 16px;
+}
+
+.logoutbtns .redbtn{
+    background: #D92D20;
+        /* Error/600 */
+    
+        border: 1px solid #D92D20;
+        /* Shadow/xs */
+    
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+
+        color: white;
+}

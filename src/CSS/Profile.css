@@ -1,0 +1,154 @@
+.profile {
+    flex: 1;
+    padding: 1rem;
+}
+
+.profileheader {}
+
+.profileheader h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.profileheader p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7E7E7E;
+}
+
+
+
+.profilelogoupload {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.profilelogoupload h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logouploadbox {
+    width: 199px;
+    height: 46px;
+
+    background: rgba(66, 42, 144, 0.05);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 3rem;
+
+}
+
+.logouploadbox img {
+    width: 114px;
+    height: 29px;
+}
+
+.profilelogoupload .logoremove {
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #7E7E7E;
+}
+
+.profilelogoupload .logoupdate {
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #422A90;
+}
+
+
+.profileform {
+    margin: 2rem 0;
+}
+
+.profileform form {}
+
+.profileform form .informheading {
+    margin: 2rem 0;
+}
+
+.profileform form label {
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    /* margin: .8rem 0; */
+}
+
+
+.profileform form input {
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7E7E7E;
+    width: 474px;
+    height: 60px;
+
+    margin: .8rem 0;
+    text-indent: 1rem;
+}
+
+.profileform form .companyaddress {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.profileform form .companyaddressdetail {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profileform form .companyaddressdetail>input {
+    width: 242px;
+}
+
+
+
+
+.profileform form h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.profileform form p {
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7E7E7E;
+}
+
+
+.profileformbtns {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.profileformbtns button {
+    width: 210px;
+    height: 56px;
+    border: 2px solid #422A90;
+    border-radius: 15px;
+    color: #422A90;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.profileformbtns .save {
+    background: #422A90;
+    color: #FFFFFF;
+}
+

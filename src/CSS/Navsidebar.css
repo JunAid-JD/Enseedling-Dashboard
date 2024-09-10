@@ -1,0 +1,71 @@
+/* ------------------- NavSidebar ----- ------------- */
+.navsidebar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+
+    width: 320px;
+    background: rgba(66, 42, 144, 0.05);
+
+
+    padding: 1.5rem 0;
+}
+
+.navsidebar nav {}
+
+nav {}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: .5rem 0;
+    padding-left: 1rem;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.activeList {
+    width: 247px;
+    height: 40px;
+
+    background: #422A90;
+    border-radius: 15px;
+    border: 1px solid #422A90;
+    color: #FFFFFF;
+
+}
+
+.logoutActive {
+    width: 247px;
+    height: 40px;
+
+    background: #FF0000;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.logout {}
+
+.logout ul {
+    list-style: none;
+}
+
+ul li {
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    margin: .5rem 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}

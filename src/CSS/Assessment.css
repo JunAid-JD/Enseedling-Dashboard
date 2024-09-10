@@ -1,0 +1,271 @@
+.assessments{
+    flex: 1;
+        padding: 1rem;
+}
+
+
+.assessments h3{
+    font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 5px;
+}
+
+.assessments p{
+font-weight: 400;
+    font-size: 16px;
+    color: #7E7E7E;
+    margin-top: 5px;
+}
+
+.assessmentsheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.assessmentsheader button{
+    height: 40px;
+    
+        background: #422A90;
+        border-radius: 15px;
+
+        font-weight: 500;
+            font-size: 16px;
+
+padding: 0 .7rem;
+            border: 1px solid #422A90;
+            color:#FFFFFF
+}
+
+.assessmentsearch{
+    width: 451px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.3);
+    border-radius: 10px;
+    color: #7E7E7E;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.assessmentsearch input {
+    color: #7E7E7E;
+    border: none;
+    outline: none;
+    text-indent: .5rem;
+    width: 100%;
+}
+
+
+
+
+/* .assessments box */
+.assessmentboxes{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem ;
+}
+
+
+
+.assessmentbox{
+    width: 231px;
+        height: 215px;
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 10px;
+
+
+        padding: .8rem .5rem ;
+
+}
+.assessmentbox .assessmentboxhead{
+
+}
+.assessmentbox .assessmentboxhead p{
+    font-weight: 400;
+        font-size: 12px;
+
+        color: #7E7E7E;
+        margin-bottom: 5px;
+}
+
+.assessmentbox .assessmentboxhead h5{
+        margin-top: 5px;
+    font-weight: 700;
+        font-size: 14px;
+}
+
+
+.assessmentboxform {
+  
+}
+.assessmentboxform label{
+    font-weight: 400;
+        font-size: 12px;
+        color: #7E7E7E;
+        /* display: block; */
+}
+.assessmentboxform input {
+width: 207px;
+    height: 32px;
+display: block;
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 5px;
+
+    font-weight: 400;
+        font-size: 8px;
+        color: #7E7E7E;
+        text-indent: .5rem;
+        outline: none;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------   Create assessment    ---------------------- */
+
+.createassessmenthead{
+    padding: .3rem 0;
+}
+
+.createassessmentform{
+margin: 2rem 0;
+}
+.createassessmentform label{
+    font-weight: 500;
+        font-size: 16px;
+}
+.createassessmentform input {
+    width: 100%;
+height: 60px;
+    
+
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 12px;
+
+    font-weight: 400;
+        font-size: 14px;
+        color: #7E7E7E;
+        text-indent: 1rem;
+
+        margin: .5rem 0;
+}
+
+.assessmentdate {
+    display: flex;
+    align-items: center;
+ gap: 1rem ;
+}
+
+.assessmentdate .dateinput{
+width: 500px;
+    height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+
+
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 12px;
+
+    font-weight: 400;
+    font-size: 14px;
+    color: #7E7E7E;
+    text-indent: 1rem;
+    padding-right: 1rem;
+        margin: .5rem 0;
+}
+.assessmentdate .dateinput input{
+   border: none;
+   background-color: transparent;
+   outline: none;
+}
+
+
+.skillsection{
+padding: 1rem 0  1.5rem;
+}
+.skillsection .skillbox{
+    width: 100%;
+        height: 60px;
+    
+        background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        padding-left: 1rem;
+}
+.skillbox .skill{
+    padding: 2px 10px;
+    
+        /* width: 53px; */
+        height: 24px;
+    
+        /* Rosé/50 */
+    
+        background: #FFF1F3;
+        border-radius: 16px;
+
+
+
+
+
+
+        font-weight: 500;
+            font-size: 14px;    
+            color: #C01048;
+}
+
+.assessmentquiz{
+   
+}
+.assessmentquiz h5{
+    font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 5px;
+}
+
+.assessmentquiz .option{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.option p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/* -------------       detail assessment     ---------------------------- */
+
+.detailassessment{
+    padding: 1rem 2rem;
+}

@@ -1,0 +1,205 @@
+.setting{
+    padding: 1rem;
+    flex: 1;
+}
+.setting h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.setting p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7E7E7E;
+    margin-top: 5px;
+}
+
+.setting nav {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+    /* padding: .5rem 0; */
+
+    border-bottom: 2px solid rgba(126, 126, 126, 0.3);
+}
+
+.setting nav a {
+    font-weight: 500;
+    font-size: 16px;
+
+    color: #7E7E7E;
+}
+
+
+
+.settingprofileform{
+margin: 2rem 0;
+}
+
+.settingprofileform .profilephoto{
+    display: flex;
+    align-items: center;
+    gap: 0 10rem;
+}
+
+.settingprofileform .profilephoto div{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.settingprofileform .profilephoto img{
+    border-radius: 10px;
+}
+.settingprofileform .profilephoto h5{
+    font-weight: 500;
+        font-size: 16px;
+}
+.settingprofileform .profilephoto span {
+font-weight: 600;
+    font-size: 16px;
+}
+
+.grey {
+    font-weight: 500;
+    color: #7E7E7E;
+    font-size: 16px;
+}
+
+
+.settingprofileform label{
+    font-weight: 500;
+        font-size: 16px;
+  margin: .8rem 0;
+  display: block;
+    }
+
+.settingprofileform input {
+height: 60px;
+    width: 100%;
+
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 12px;
+
+    text-indent: 1rem;
+    color: #7E7E7E;
+    font-weight: 400;
+        font-size: 14px;
+        outline: none;
+}
+
+
+.settingprofileform .names{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.settingprofileform .names input{
+width: 310px;
+}
+
+.settingprofileform textarea{
+
+
+    width: 100%;
+     height: 115px;;
+    background: rgba(66, 42, 144, 0.05);
+        border: 1px solid rgba(66, 42, 144, 0.3);
+        border-radius: 12px;
+    
+        padding: 1rem;
+        color: #7E7E7E;
+        font-weight: 400;
+        font-size: 14px;
+
+
+}
+
+.settingprofileform .select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        background: rgba(66, 42, 144, 0.05);
+            border: 1px solid rgba(66, 42, 144, 0.3);
+            border-radius: 12px;
+            color: #7E7E7E;
+    padding:0 1rem;
+}
+.settingprofileform .select input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-indent: 0;
+}
+
+.settingprofileform .check{
+    display: flex;
+    align-items: center;
+}
+
+.settingprofileform .check span{
+    font-weight: 400;
+        font-size: 16px;
+        color: #7E7E7E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------    Setting Team  - ------------- */
+
+.teams{
+    margin: 2rem 0;
+}
+.teambox{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 1rem 0;
+}
+
+.teambox .teamname{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.teambox .teamname img{
+    border-radius: 10px;
+}
+.teambox .teamname h2{
+    font-weight: 500;
+        font-size: 16px;
+} 
+.teamstatus{
+display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.teamstatus span{
+font-weight: 500;
+    font-size: 16px;
+}

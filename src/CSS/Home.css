@@ -1,0 +1,446 @@
+/* -----------------  Home Section   -------------------- */
+
+
+.home {
+    flex: 1;
+    padding: 1rem;
+}
+
+.homeheadsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.homeheadsection h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.homeheadsection h3 span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+
+    color: #7E7E7E;
+}
+
+
+.sortby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 157px;
+    height: 40px;
+
+    background: #422A90;
+    border-radius: 15px;
+    border: 1px solid #422A90;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.homeboxsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.homebox {
+    width: 231px;
+    height: 98px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.3);
+    border-radius: 15px;
+
+    padding: .5rem;
+}
+
+.homebox h5 {
+    font-weight: 500;
+    font-size: 11px;
+    /* line-height: 18px; */
+    /* identical to box height, or 164% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #7E7E7E;
+}
+
+.homeboxstats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeboxstats h4 {
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 32px; */
+
+    margin: 0px;
+}
+
+.homeboxstats p {
+    font-weight: 500;
+    font-size: 13px;
+    /* line-height: 21px; */
+    /* identical to box height, or 162% */
+
+    text-align: right;
+
+    /* green/500 */
+
+    color: #22C55E;
+
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+}
+
+.homeboxstats .low {
+    color: #EF4444;
+}
+
+
+
+.homegraphsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0 1rem;
+}
+
+.reportgraph {
+    width: 745px;
+    height: 328px;
+
+    padding: 1rem;
+
+    /* Colors / White / 100% */
+
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.3);
+    border-radius: 15px;
+}
+
+.reportgraph .graphheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graphheader h1 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.reportgraph .graphheaderbtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.graphheaderbtns button {
+    width: 84px;
+    height: 30px;
+
+    background: rgba(66, 42, 144, 0.05);
+    border: 1px solid rgba(66, 42, 144, 0.3);
+    border-radius: 5px;
+
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.reportgraphimg {
+    background-image: url('/public/images/graphlines.png');
+    background-position: center;
+
+    width: 738px;
+    height: 229px;
+    margin-top: 1rem;
+}
+
+.reportgraphimg img {
+    width: 715px;
+}
+
+
+
+.progressgraph {
+    width: 230px;
+    height: 328px;
+    padding: .3rem 1rem;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.3);
+    border-radius: 15px;
+}
+
+.progressgraph h3 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.progressgraph .progressgraphimg {
+    background-image: url(/public//images/progressgraphimg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 214.38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.progressgraphimg h1 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+
+.progressgraphimg p {
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+
+    /* green/500 */
+
+    color: #22C55E;
+}
+
+.progressgraph .colorPointer {}
+
+.colorPointer p {
+    font-weight: 400;
+    font-size: 10px;
+
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+
+
+
+
+
+
+.homereportsection {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+
+
+
+
+.internreport {
+    width: 745px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+
+    /* Colors / White / 100% */
+
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.3);
+    border-radius: 15px;
+}
+
+.internreportdetail h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+
+.internreportdetail p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: #7E7E7E;
+}
+
+.internreport .interreportbtn {
+    width: 84px;
+    height: 30px;
+    border: 1px solid #422A90;
+    background: #422A90;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 10px;
+
+    color: #FFFFFF;
+
+
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.internposition {
+    width: 745px;
+
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.3);
+    border-radius: 15px;
+}
+
+.internposition h1 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.internposition .positions {
+    padding-top: .5rem;
+}
+
+.positions .position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.position .positiondetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.positiondetailbody {}
+
+.positiondetailbody h3 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.positiondetailbody p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #7E7E7E;
+    margin: 0px;
+}
+
+.position .positiondetailbtn {
+    width: 84px;
+    height: 30px;
+
+    border: 1px solid #422A90;
+    border-radius: 5px;
+
+
+    font-weight: 500;
+    font-size: 10px;
+
+    color: #422A90;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.homereportsection .homenewssection {
+
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.3);
+    border-radius: 15px;
+    width: 230px;
+    padding: .7rem;
+    /* overflow: scroll; */
+    /* height: fit-content; */
+}
+
+.homenewssection h3 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.homenewssection .newsbox {
+    padding: .2rem 0;
+}
+
+.homenewssection .newsbox .news {
+    margin: .8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .2rem;
+}
+
+
+.news .newsdetail {}
+
+.news .newsdetail h5 {
+    font-weight: 500;
+    font-size: 12px;
+
+    margin: 10px 0;
+}
+
+.news .newsdetail p {
+    font-weight: 400;
+    font-size: 8px;
+    color: #7E7E7E;
+    margin: 10px 0;
+}
+
+.newsbox .link {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    text-decoration-line: underline;
+
+    color: #422A90;
+
+    text-align: center;
+    margin: 1rem 0 0;
+
+
+    cursor: pointer;
+}
